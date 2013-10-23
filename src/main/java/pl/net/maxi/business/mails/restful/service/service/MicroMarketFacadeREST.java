@@ -23,7 +23,7 @@ import pl.net.maxi.business.mails.entity.MicroMarket;
  * @author luc
  */
 @Stateless
-@Path("pl.net.maxi.business.mails.entity.micromarket")
+@Path("micromarket")
 public class MicroMarketFacadeREST extends AbstractFacade<MicroMarket> {
     @PersistenceContext(unitName = "pl.net.maxi_tutorial_war_1.0-SNAPSHOTPU")
     private EntityManager em;
