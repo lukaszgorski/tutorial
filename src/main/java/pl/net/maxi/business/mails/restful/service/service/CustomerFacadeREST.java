@@ -23,7 +23,7 @@ import pl.net.maxi.business.mails.entity.Customer;
  * @author luc
  */
 @Stateless
-@Path("pl.net.maxi.business.mails.entity.customer")
+@Path("customer")
 public class CustomerFacadeREST extends AbstractFacade<Customer> {
     @PersistenceContext(unitName = "pl.net.maxi_tutorial_war_1.0-SNAPSHOTPU")
     private EntityManager em;
