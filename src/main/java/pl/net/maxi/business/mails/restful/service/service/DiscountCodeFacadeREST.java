@@ -23,7 +23,7 @@ import pl.net.maxi.business.mails.entity.DiscountCode;
  * @author luc
  */
 @Stateless
-@Path("pl.net.maxi.business.mails.entity.discountcode")
+@Path("discountcode")
 public class DiscountCodeFacadeREST extends AbstractFacade<DiscountCode> {
     @PersistenceContext(unitName = "pl.net.maxi_tutorial_war_1.0-SNAPSHOTPU")
     private EntityManager em;
